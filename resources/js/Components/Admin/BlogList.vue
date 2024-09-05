@@ -38,7 +38,7 @@ const featureClass = (blogStatus) => {
 }
 
 const formatDate = (date) => {
-    return moment(date).format("MMM Do YY, h:mm a");
+    return moment(date).format("MMM Do YY");
 }
 
 const deleteBlog = (blog) => {
