@@ -225,6 +225,7 @@ const logout = () => {
                     <ul role="list" class="mb-2 flex flex-1 flex-col gap-y-7">
                         <li>
                             <ul role="list" class="-mx-2 space-y-1">
+
                                 <!-- <li>
                                     <Link :href="route('admin.dashboard')"
                                         :class="[currentRoute == '/dashboard' ? 'text-primary' : 'text-white']"
