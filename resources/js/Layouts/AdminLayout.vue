@@ -33,7 +33,7 @@ const logout = () => {
             enter-from-class="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
             enter-to-class="translate-y-0 opacity-100 sm:translate-x-0" leave-from-class="opacity-100"
             leave-to-class="opacity-0" leave-active-class="transition ease-in duration-100">
-            
+
             <div v-if="launchToaster" aria-live="assertive"
                 class="z-[1000] pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6">
                 <div class="flex w-full flex-col items-center space-y-4 sm:items-end">
@@ -225,14 +225,14 @@ const logout = () => {
                     <ul role="list" class="mb-2 flex flex-1 flex-col gap-y-7">
                         <li>
                             <ul role="list" class="-mx-2 space-y-1">
-                                <li>
+                                <!-- <li>
                                     <Link :href="route('admin.dashboard')"
                                         :class="[currentRoute == '/dashboard' ? 'text-primary' : 'text-white']"
                                         class="hover:text-white group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
                                     <i class="fas fa-house-tree fa-2xl mt-2 group-hover:text-white"></i>
                                     Dashboard
                                     </Link>
-                                </li>
+                                </li> -->
                                 <!-- <li>
                                     <Link :href="route('admin.products')"
                                         :class="[currentRoute == '/admin-products' ? 'text-primary' : 'text-white']"
@@ -249,14 +249,14 @@ const logout = () => {
                                     Blogs
                                     </Link>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <Link :href="route('admin.leads')"
                                         :class="[currentRoute == '/admin-leads' ? 'text-primary' : 'text-white']"
                                         class="hover:text-white hover:bg-primary group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
                                     <i class="fa-solid fa-money-bill-trend-up fa-2xl mt-2 group-hover:text-white"></i>
                                     Leads
                                     </Link>
-                                </li>
+                                </li> -->
 
                             </ul>
                         </li>
